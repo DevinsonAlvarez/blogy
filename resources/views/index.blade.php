@@ -18,7 +18,7 @@
         @endif
         <div class="space-y-4">
             @foreach ($posts as $post)
-                <x-post :title="$post->title" :content="$post->content" />
+                <x-post :title="$post->title" :content="$post->content" :image="$post->image" />
             @endforeach
         </div>
     </div>
